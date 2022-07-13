@@ -20,8 +20,6 @@ class Publisher(ABC):
 
 
 class ClientPublisher(Publisher):
-
-    _state: int = None
     
     _suscribers = []
     
